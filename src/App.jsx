@@ -1,7 +1,7 @@
 import React from "react";
 import image1 from "./assets/image1.jpg";
 import image2 from "./assets/image2.jpg";
-import { FaLocationDot } from "react-icons/fa6";
+import { MdLocationOn } from "react-icons/md";
 import html from "./assets/html.png";
 import css from "./assets/css-logo.png";
 import git from "./assets/git-logo.png";
@@ -46,7 +46,7 @@ function App() {
 
                 <div className="mt-4 flex gap-3 items-center justify-center sm:justify-start">
                   <p className="text-2xl">
-                    <FaLocationDot />
+                    <MdLocationOn />
                   </p>
                   <p className="text-xl text-white"> Raipur, Chhattisgarh</p>
                 </div>

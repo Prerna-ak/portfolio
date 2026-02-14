@@ -1,6 +1,5 @@
 import React from "react";
-import image1 from "./assets/image1.jpg";
-import image2 from "./assets/image2.jpg";
+
 import { FaMapMarkerAlt } from "react-icons/fa";
 import html from "./assets/html.png";
 import css from "./assets/css-logo.png";
@@ -18,6 +17,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { IoMdCall } from "react-icons/io";
 import { BlurFade } from "./components/ui/blur-fade";
+import pic1 from "./assets/pic1.jpeg";
+import pic2 from "./assets/pic2.jpeg";
 
 import tailwind from "./assets/tailwind.png";
 
@@ -29,7 +30,7 @@ function App() {
           <div className="text-white  max-w-[900px] mx-auto mt-12 p-4">
             <div className="  flex flex-col gap-7 justify-center items-center sm:flex sm:flex-row sm:items-center sm:justify-center sm:gap-7 ">
               <img
-                src={image1}
+                src={pic1}
                 alt=""
                 className=" h-[600px] object-cover rounded-lg"
               />
@@ -59,7 +60,7 @@ function App() {
           <div className="text-white  max-w-[900px] mx-auto mt-18 p-4">
             <div className="flex flex-col gap-7 justify-center items-center sm:flex sm:flex-row-reverse sm:items-center sm:justify-center sm:gap-10">
               <img
-                src={image2}
+                src={pic2}
                 alt=""
                 className="h-[600px] w-[380px] object-cover rounded-lg mt-3  mb-3"
               />

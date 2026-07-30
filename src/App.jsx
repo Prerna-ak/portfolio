@@ -47,7 +47,7 @@ function App() {
 
                 <div className="mt-4 flex gap-3 items-center justify-center sm:justify-start">
                   <p className="text-2xl">
-                   <FaMapMarkerAlt />
+                    <FaMapMarkerAlt />
                   </p>
                   <p className="text-xl text-white"> Raipur, Chhattisgarh</p>
                 </div>
@@ -294,12 +294,7 @@ function App() {
               </a>
             </div>
 
-            <div className="mt-5 flex gap-2 sm:gap-5 items-center justify-center">
-              <p className="sm:text-6xl text-2xl">
-                <IoMdCall />
-              </p>
-              <p className="text-xl sm:text-5xl">9981954000</p>
-            </div>
+            
 
             <div className="flex gap-12 justify-center mt-8">
               <a href="" className="text-5xl">
